@@ -1,0 +1,55 @@
+/* Skill icons: the name always shows under the icon (so it works on touch screens too),
+   and hovering an icon lifts it into its brand colour. */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 1.25rem;
+  margin: 0 0 2.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5.5rem;
+  cursor: default;
+}
+
+.skill i {
+  font-size: 3.25rem;
+  line-height: 1;
+  color: #868e96;
+  transition: color 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+}
+
+.skill span {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: #868e96;
+  transition: color 0.2s ease;
+}
+
+.skill:hover i {
+  color: var(--brand);
+  transform: translateY(-4px) scale(1.08);
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+.skill:hover span {
+  color: #343a40;
+}
+
+@media (max-width: 575.98px) {
+  .skill { width: 4.5rem; }
+  .skill i { font-size: 2.6rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill i { transition: none; }
+  .skill:hover i { transform: none; }
+}

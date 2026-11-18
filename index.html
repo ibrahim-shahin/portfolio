@@ -21,6 +21,7 @@
     integrity="sha384-mTX5j/NIzlehkuOql3BYfNpkDrnvRHS5S7V3ctncUhJjtlL1+85q8lCKi8A5sUb+" crossorigin="anonymous">
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -197,9 +198,10 @@
             <div class="subheading mb-3">
               <a href="https://weather-app-xlod.onrender.com" target="_blank" rel="noopener">Visit now</a>
             </div>
-            <p>Current weather for any city or country: temperature, how it feels, humidity, and wind, on a
-              responsive page.</p>
-            <p class="text-muted">React, OpenWeather API</p>
+            <p>Current weather, the next 24 hours and a 7-day forecast for any city, or for wherever you are. City
+              search with suggestions, °C and °F, and a background that follows the weather and time of day, on any
+              screen size.</p>
+            <p class="text-muted">React, Open-Meteo API, Vitest, Playwright</p>
           </div>
         </div>
       </div>
@@ -238,42 +240,41 @@
         <h2 class="mb-5">Skills</h2>
 
         <div class="subheading mb-3">Full stack web development</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item"><i class="devicon-react-original" title="React"></i></li>
-          <li class="list-inline-item"><i class="devicon-html5-plain" title="HTML"></i></li>
-          <li class="list-inline-item"><i class="devicon-css3-plain" title="CSS"></i></li>
-          <li class="list-inline-item"><i class="devicon-bootstrap-plain" title="Bootstrap"></i></li>
-          <li class="list-inline-item"><i class="devicon-tailwindcss-plain" title="Tailwind CSS"></i></li>
-          <li class="list-inline-item"><i class="devicon-nodejs-plain" title="Node.js"></i></li>
-          <li class="list-inline-item"><i class="devicon-express-original" title="Express"></i></li>
-          <li class="list-inline-item"><i class="devicon-mongodb-plain" title="MongoDB"></i></li>
-          <li class="list-inline-item"><i class="devicon-microsoftsqlserver-plain" title="Microsoft SQL Server"></i>
-          </li>
+        <ul class="skill-list">
+          <li class="skill" style="--brand: #149eca"><i class="devicon-react-original" aria-hidden="true"></i><span>React</span></li>
+          <li class="skill" style="--brand: #e54d26"><i class="devicon-html5-plain" aria-hidden="true"></i><span>HTML</span></li>
+          <li class="skill" style="--brand: #1572b6"><i class="devicon-css3-plain" aria-hidden="true"></i><span>CSS</span></li>
+          <li class="skill" style="--brand: #7952b3"><i class="devicon-bootstrap-plain" aria-hidden="true"></i><span>Bootstrap</span></li>
+          <li class="skill" style="--brand: #06b6d4"><i class="devicon-tailwindcss-plain" aria-hidden="true"></i><span>Tailwind</span></li>
+          <li class="skill" style="--brand: #5fa04e"><i class="devicon-nodejs-plain" aria-hidden="true"></i><span>Node.js</span></li>
+          <li class="skill" style="--brand: #444444"><i class="devicon-express-original" aria-hidden="true"></i><span>Express</span></li>
+          <li class="skill" style="--brand: #47a248"><i class="devicon-mongodb-plain" aria-hidden="true"></i><span>MongoDB</span></li>
+          <li class="skill" style="--brand: #cc2927"><i class="devicon-microsoftsqlserver-plain" aria-hidden="true"></i><span>SQL Server</span></li>
         </ul>
 
         <div class="subheading mb-3">Programming languages</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item"><i class="devicon-java-plain" title="Java"></i></li>
-          <li class="list-inline-item"><i class="devicon-csharp-plain" title="C#"></i></li>
-          <li class="list-inline-item"><i class="devicon-javascript-plain" title="JavaScript"></i></li>
-          <li class="list-inline-item"><i class="devicon-python-plain" title="Python"></i></li>
-          <li class="list-inline-item"><i class="devicon-cplusplus-plain" title="C++"></i></li>
+        <ul class="skill-list">
+          <li class="skill" style="--brand: #ea2d2e"><i class="devicon-java-plain" aria-hidden="true"></i><span>Java</span></li>
+          <li class="skill" style="--brand: #68217a"><i class="devicon-csharp-plain" aria-hidden="true"></i><span>C#</span></li>
+          <li class="skill" style="--brand: #d4b400"><i class="devicon-javascript-plain" aria-hidden="true"></i><span>JavaScript</span></li>
+          <li class="skill" style="--brand: #3776ab"><i class="devicon-python-plain" aria-hidden="true"></i><span>Python</span></li>
+          <li class="skill" style="--brand: #00599c"><i class="devicon-cplusplus-plain" aria-hidden="true"></i><span>C++</span></li>
         </ul>
 
         <div class="subheading mb-3">DevOps and cloud</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item"><i class="devicon-amazonwebservices-plain-wordmark" title="AWS"></i></li>
-          <li class="list-inline-item"><i class="devicon-docker-plain" title="Docker"></i></li>
-          <li class="list-inline-item"><i class="devicon-jenkins-line" title="Jenkins"></i></li>
-          <li class="list-inline-item"><i class="devicon-ansible-plain" title="Ansible"></i></li>
-          <li class="list-inline-item"><i class="devicon-terraform-plain" title="Terraform"></i></li>
+        <ul class="skill-list">
+          <li class="skill" style="--brand: #ff9900"><i class="devicon-amazonwebservices-plain-wordmark" aria-hidden="true"></i><span>AWS</span></li>
+          <li class="skill" style="--brand: #2496ed"><i class="devicon-docker-plain" aria-hidden="true"></i><span>Docker</span></li>
+          <li class="skill" style="--brand: #d24939"><i class="devicon-jenkins-line" aria-hidden="true"></i><span>Jenkins</span></li>
+          <li class="skill" style="--brand: #1a1918"><i class="devicon-ansible-plain" aria-hidden="true"></i><span>Ansible</span></li>
+          <li class="skill" style="--brand: #7b42bc"><i class="devicon-terraform-plain" aria-hidden="true"></i><span>Terraform</span></li>
         </ul>
 
         <div class="subheading mb-3">Tools</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item"><i class="devicon-git-plain" title="Git"></i></li>
-          <li class="list-inline-item"><i class="devicon-github-original" title="GitHub"></i></li>
-          <li class="list-inline-item"><i class="devicon-linux-plain" title="Linux"></i></li>
+        <ul class="skill-list">
+          <li class="skill" style="--brand: #f05032"><i class="devicon-git-plain" aria-hidden="true"></i><span>Git</span></li>
+          <li class="skill" style="--brand: #181717"><i class="devicon-github-original" aria-hidden="true"></i><span>GitHub</span></li>
+          <li class="skill" style="--brand: #333333"><i class="devicon-linux-plain" aria-hidden="true"></i><span>Linux</span></li>
         </ul>
 
         <ul class="fa-ul mb-0">
@@ -281,9 +282,7 @@
             systems</li>
           <li><i class="fa-li fa fa-check"></i>Unit and integration testing</li>
           <li><i class="fa-li fa fa-check"></i>Solving problems daily on
-            <a href="https://leetcode.com/u/IbraShahin/" target="_blank" rel="noopener">LeetCode</a> and
-            <a href="https://codeforces.com/profile/Mr4R0B0T" target="_blank" rel="noopener">Codeforces</a>
-          </li>
+            <a href="https://leetcode.com/u/IbraShahin/" target="_blank" rel="noopener">LeetCode</a></li>
           <li><i class="fa-li fa fa-check"></i>Languages: Arabic (native), English (proficient)</li>
         </ul>
       </div>
